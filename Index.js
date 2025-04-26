@@ -3,7 +3,7 @@ let addtask = document.querySelector('button');
 let addul = document.querySelector('ul');
 
 addtask.addEventListener('click', ()=>{ // addtask par click karne par bar bar call ho jaa raha hai
-    // hum html tag me direcrt value add nhi kar sakte islye hum   DOM use karte hai     
+    // hum html tag me direcrt value add nhi kar sakte islye hum   DOM use karte hai      ` 
     let item = document.createElement("li");//element bana to diya isko kisi me to dalna padega body me ya pher kisi div me // li ke tag me value ayse insert karega
     item.innerText = input.value;// yaha hum connect kar rahe hai buttion or input ko// value already define hai // elemet banane ke bad coontent bhi to dalnala padega 
 
